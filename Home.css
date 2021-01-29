@@ -1,0 +1,202 @@
+body{
+	background-color: #f7f7f7;
+}
+
+footer{
+	background-color: grey;
+	font-family: helvetica ,roboto,Arial,Sans-serif;
+	font-size: medium;
+}
+
+header{
+	background-color: #ff5f2c;
+}
+
+
+
+
+
+
+text-card{
+	text-decoration: none;
+}
+
+.corps {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+}
+
+.card {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 19%;
+  margin: 5px;
+  text-decoration: none;
+ 
+
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #545352;
+}
+
+
+.container {
+  padding: 2px 16px;
+  background-color: #ec4510;
+}
+
+.contenu-footer
+  {
+    width : 1200 px;
+    margin : 0 auto;
+    display : flex;
+    justify-content : center; 
+    align-items : flex-start;
+    font-size : 20 px;
+    
+  }
+ 
+.bloc
+  {
+    width : 25% ;
+    margin : 0 30px;
+  }
+  
+.footer-Ahimelogo h3,
+.footer-Contacternous h3,
+.footer-Nosreseaux h3, 
+.footer-Autres h3
+  {
+     font-size : 25px;
+    
+  }
+  
+.liste-Ahimelogo,
+.liste-Contacternous,
+.liste-Nosreseaux,
+.liste-Autres
+  {
+     list-style-type : flex;
+  }
+
+  text-card{
+	text-decoration: none;
+}
+.vertical1{
+	width: 20%;
+	margin: 0 auto ; 
+	float: left;
+	min-height: 600px ;
+	background-repeat: none ;
+	opacity: 0.7;
+}
+.vertical2{
+	width: 80% ;
+	margin-left: 20%;
+	background-color: #f7f7f7;	
+  min-height:600px;
+
+}
+
+/***************************************Slides+***********************************************/
+.w3-container:after,.w3-container:before
+
+  {
+  content:"";display:table;clear:both
+  }
+
+.w3-content,.w3-auto
+  {
+    margin-left:auto;margin-right:auto
+  }
+
+.w3-content
+  {
+    max-width:980px
+  }
+
+.w3-auto
+  {
+    max-width:1140px
+  }
+
+.w3-section
+  {
+    margin-top:16px!important;margin-bottom:16px!important
+  }   
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+.w3-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+ 
+
+
+/*Slides*/
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 19%;
+  text-decoration: none;
+  margin-left: 325px;
+ 
+
+}
+.titrage{
+
+  text-align: center;
+  font-size: 20px ;
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: green ;
+
+}
+
+.container1{
+  margin-bottom: 100px;
+}
+
+.paragraphe1{
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.lienportail{
+
+  text-decoration: none;
+  font-family: sans-serif; 
+  font-size: 17px;
+  
+}
+
+.tlp{
+  font-size: 18px;
+  color: red;
+}
+
+
+.apparences:hover{
+
+  background-color: blue;
+
+}
+.delpuce{
+
+  list-style-type: none;
+}
